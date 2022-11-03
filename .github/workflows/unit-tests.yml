@@ -53,7 +53,7 @@ jobs:
       - name: Build containers - ${{ matrix.service }}
         timeout-minutes: 4
         run: |
-          docker compose build ${{ matrix.service }}\
+          docker compose build ${{ matrix.service }}
       - name: Start the service
         timeout-minutes: 2
         run: |
