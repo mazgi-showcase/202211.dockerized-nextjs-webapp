@@ -1,6 +1,7 @@
 # 202211.dockerized-nextjs-webapp
 
 [![unit-tests](https://github.com/mazgi-showcase/202211.dockerized-nextjs-webapp/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/mazgi-showcase/202211.dockerized-nextjs-webapp/actions/workflows/unit-tests.yml)
+[![build-production-images](https://github.com/mazgi-showcase/202211.dockerized-nextjs-webapp/actions/workflows/build-production-images.yml/badge.svg)](https://github.com/mazgi-showcase/202211.dockerized-nextjs-webapp/actions/workflows/build-production-images.yml)
 
 ## How to Use
 
