@@ -1,8 +1,6 @@
-# template.dockerized-nextjs-project
+# 202211.dockerized-nextjs-webapp
 
-[![unit-tests](https://github.com/mazgi/template.dockerized-nextjs-project/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/mazgi/template.dockerized-nextjs-project/actions/workflows/unit-tests.yml)
-
-This repository is a template for developing Web Applications using [Next.js](https://nextjs.org/) and TypeScript.
+[![unit-tests](https://github.com/mazgi-showcase/202211.dockerized-nextjs-webapp/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/mazgi-showcase/202211.dockerized-nextjs-webapp/actions/workflows/unit-tests.yml)
 
 ## How to Use
 
