@@ -1,5 +1,9 @@
 FROM ubuntu:22.04 as base
 
+# I've referred to the following Dockerfiles. Thanks!
+# - https://github.com/BretFisher/nodejs-rocks-in-docker/blob/7d9fbd6acc90714e7af228a06059d7d3765fc2d1/dockerfiles/ubuntu-deb.Dockerfile
+# - https://github.com/vercel/next.js/blob/4af50116cd696b8cb25a40dd81e861373617d33d/examples/with-docker-multi-env/docker/production/Dockerfile
+
 LABEL maintainer="docker@mazgi.com"
 
 # https://nodejs.org/en/blog/release/v18.12.0/
@@ -45,7 +49,6 @@ ENTRYPOINT ["/usr/bin/tini", "--"]
 WORKDIR /workspace
 USER node
 
-# https://github.com/vercel/next.js/blob/canary/examples/with-docker-multi-env/docker/production/Dockerfile
 FROM base AS frontend-builder
 COPY --chown=node:node frontend .
 RUN :\
